@@ -1,0 +1,11 @@
+# Ignore Jupyter junk
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore datasets (optional, only if you don’t want to push raw data)
+*.csv
+*.parquet
+
