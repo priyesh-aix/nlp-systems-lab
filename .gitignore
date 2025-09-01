@@ -6,6 +6,6 @@ __pycache__/
 *.pyc
 
 # Ignore datasets (optional, only if you don’t want to push raw data)
-*.csv
-*.parquet
+# *.csv
+# *.parquet
 
