@@ -93,5 +93,63 @@ notebooks/nlp/
 │   ├── README.md
 │   └── requirements.txt
 ---
+```
+
+## 📚 Recommended Resources
+
+A curated, chronological list of books and study material for learning Machine Learning, Deep Learning, and NLP.  
+Where possible, open-access PDFs are linked directly. Otherwise, references to standard texts are included.
+
+---
+
+### 1️⃣ Foundations (Math + ML Basics)
+- **Mathematics for Machine Learning** — Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong  
+  🔗 [Book site](https://mml-book.github.io/) | [Direct PDF](https://mml-book.github.io/book/mml-book.pdf)
+
+- **Dive into Deep Learning (D2L)** — Aston Zhang, Zachary Lipton, Mu Li, Alex Smola  
+  🔗 [Book site](https://d2l.ai) | [Direct PDF](https://d2l.ai/d2l-en.pdf)  
+  📖 Hands-on introduction with interactive Jupyter notebooks.
+
+---
+
+### 2️⃣ Core Machine Learning
+- **Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow** — Aurélien Géron  
+  📕 Practical, implementation-first (not open access).
+
+- **Understanding Deep Learning** — Simon J.D. Prince  
+  🔗 [Book site](https://udlbook.github.io/udlbook/) | [Direct PDF](https://udlbook.github.io/udlbook/udlbook.pdf)  
+  📖 Accessible but mathematically rigorous guide to deep learning.
+
+---
+
+### 3️⃣ Probabilistic & Theoretical ML
+- **Pattern Recognition and Machine Learning (PRML)** — Christopher M. Bishop  
+  📖 Classic ML theory and probabilistic foundations (2006).  
+  🔗 [Official PDF (Microsoft Research)](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+
+- **Probabilistic Machine Learning (Vol. 1: Introduction, Vol. 2: Advanced Topics)** — Kevin P. Murphy  
+  📖 Comprehensive modern treatment of probabilistic ML.  
+  🔗 [Publisher page](https://probml.github.io/pml-book/) (not openly available as PDF).
+
+---
+
+### 4️⃣ Natural Language Processing (NLP)
+- **Speech and Language Processing (3rd Edition Draft)** — Daniel Jurafsky & James H. Martin  
+  🔗 [Book site](https://web.stanford.edu/~jurafsky/slp3/) | [Direct PDF](https://web.stanford.edu/~jurafsky/slp3/slp3.pdf)
+
+- **Natural Language Processing with Python (NLTK Book)** — Steven Bird, Ewan Klein, Edward Loper  
+  🔗 [Book site](https://www.nltk.org/book/)  
+  📖 Code-oriented introduction to NLP using Python.
+
+---
+
+### 5️⃣ Advanced & Specialized Topics
+- **Deep Learning** — Ian Goodfellow, Yoshua Bengio, Aaron Courville  
+  🔗 [Official site](https://www.deeplearningbook.org/) (PDF no longer openly distributed).
+
+- **Graph Representation Learning** — William Hamilton  
+  🔗 [Book site](https://www.cs.mcgill.ca/~wlh/grl_book/) | [Direct PDF](https://www.cs.mcgill.ca/~wlh/grl_book/files/GRL_Book.pdf)
+
+---
 
 ⚠️ Note: this repo isn’t “done.” It will keep mutating. If something looks half-baked… it probably is.  
