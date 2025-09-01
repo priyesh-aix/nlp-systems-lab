@@ -27,18 +27,71 @@ Some highlights:
 
 ---
 
-## 📂 Folder setup (roughly)  
+## 📋 Requirements
+- **Python** 3.10+
+- **pip** (comes with Python)
+- (Optional) **virtualenv** or **conda** for environment management
+- **Git** (to clone the repository)
+- **JupyterLab** (installed via pip below)
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone the repository
 ```bash
-nlp-systems-lab/
-├─ data/          # datasets (raw + processed)
-├─ notebooks/     # Jupyter playgrounds
-├─ src/           # actual reusable code
-├─ models/        # trained stuff
-├─ configs/       # YAML configs, tweakable
-├─ docs/          # notes, diagrams, etc.
-└─ README.md
+git clone https://github.com/priyesh-aix/nlp-systems-lab.git
+cd nlp-systems-lab
 ```
 
+### 2. Create & activate virtual environment
+```bash
+python -m venv .venv
+# macOS/Linux
+source .venv/bin/activate
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+```
+
+### 3. Install dependencies
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 4. Install & launch JupyterLab
+```bash
+pip install jupyterlab
+jupyter lab
+```
+
+### 5. Run the notebooks
+Open any notebook from:
+```
+notebooks/nlp/
+```
+
+---
+
+## 📂 Directory Layout  
+```bash
+.
+├── nlp-systems-lab
+│   ├── data
+│   │   ├── hotel-reviews.csv
+│   │   ├── sample.txt
+│   │   └── tweets.csv
+│   ├── notebooks
+│   │   └── nlp
+│   │       ├── text_processor.ipynb
+│   │       └── text_processor_pd.ipynb
+│   ├── notes
+│   │   ├── 1_intro
+│   │   │   └── ml_intro.ipynb
+│   │   └── 2_nlp
+│   │       └── nlp_notes.ipynb
+│   ├── README.md
+│   └── requirements.txt
 ---
 
 ⚠️ Note: this repo isn’t “done.” It will keep mutating. If something looks half-baked… it probably is.  
